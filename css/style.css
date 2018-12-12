@@ -1,7 +1,7 @@
 .background {
 	background: url(../img/Background.png);
-	width:962px;
-	height:882px;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .Logo {
 	width: 267px;
@@ -95,5 +95,5 @@ p, span {
 }
 .Footer p {
 	clear: both;
-	padding-top: 200px;
+	padding: 200px 0 30px 0;
 }
