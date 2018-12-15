@@ -1,98 +1,86 @@
 .background {
 	background: url(../img/Background.png);
-	background-size: 100% 100%;
+	background-size: cover;
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
-.Logo {
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.logo {
 	width: 267px;
 	height: 145px;
 	margin: 56px 0px 0px 70px;
 	float: left;
 }
+
 .contact {
 	float: right;
 	color: #d5d5d5;
 	margin: 135px 82px 0px 0px;
 }
-.cont {
+
+.contact p {
 	margin-bottom: 5px;
 }
+
 p, span {
 	font-family: Tahoma, sans-serif;
 	font-size: 12px;
 	color: #d5d5d5;
 }
+
 .india {
 	clear: both;
 	float: left;
 	margin-left: 68px;
 }
-.img_india {
+
+.img_countries {
 	border: 4px groove #989898;
 }
-.p_india {
+
+.Name_of_countries {
 	margin-left: 122px;
 	font-size: 18px;
 }
+
 .nepal {
     float: left;
     margin-left: 12px;
 }
-.img_nepal {
-	border: 4px groove #989898;
-}
-.p_nepal {
-	margin-left: 122px;
-	font-size: 18px;
-}
+
 .tibet {
 	float: left;
     margin-left: 12px;
 }
-.img_tibet {
-	border: 4px groove #989898;
-}
-.p_tibet {
-	margin-left: 122px;
-	font-size: 18px;
-}
+
 .bhutan {
 	clear: both;
 	float: left;
     margin-left: 68px;
     margin-top: 53px;
 }
-.img_bhutan {
-	border: 4px groove #989898;
-}
-.p_bhutan {
-	margin-left: 122px;
-	font-size: 18px;
-}
+
 .sri_lanka {
 	float: left;
     margin-left: 12px;
     margin-top: 53px;
 }
-.img_sri_lanka {
-	border: 4px groove #989898;
-}
-.p_sri_lanka {
-	margin-left: 122px;
-	font-size: 18px;
-}
+
 .maldives {
 	float: left;
     margin-left: 12px;
     margin-top: 53px;
 }
-.img_maldives {
-	border: 4px groove #989898;
+
+.wrapper div a {
+	text-decoration: none;
 }
-.p_maldives {
-	margin-left: 122px;
-	font-size: 18px;
-}
+
 .Footer p {
 	clear: both;
 	padding: 200px 0 30px 0;
